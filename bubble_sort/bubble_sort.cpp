@@ -25,12 +25,22 @@ void input() {
 }
 void bubblesortArray() {
 	for (int i = 1; i < 1; i++) {
-		for (int j = 0; j < 1; j++) {
+		for (int j = 0; j < n - 1; j++) {
 			if (a[j] > a[j + 1]) {
 				int temp = a[j];
 				a[j] = a[j + 1];
 				a[j + 1] = temp;
 			}
 		}
+	}
+}
+
+void unsorted() {
+	cout << endl;
+	cout << "=============================" << endl;
+	cout << "";
+	cout << "=============================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a [j] << endl:
 	}
 }
