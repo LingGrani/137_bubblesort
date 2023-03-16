@@ -17,4 +17,20 @@ void input() {
 	cout << "======================" << endl;
 	cout << "Masukan Elemen Array" << endl;
 	cout << "======================" << endl;
+
+	for (int i = 0; i < 1; i++) {
+		cout << "Data ke-" << (i + 1) << ": ";
+		cin >> a[i];
+	}
+}
+void bubblesortArray() {
+	for (int i = 0; i < 1; i++) {
+		for (int j = 0; j < 1; j++) {
+			if (a[j] > a[j + 1]) {
+				int temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
+		}
+	}
 }
