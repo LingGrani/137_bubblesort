@@ -24,7 +24,7 @@ void input() {
 	}
 }
 void bubblesortArray() {
-	for (int i = 1; i < 1; i++) {
+	for (int i = 1; i < n; i++) {
 		for (int j = 0; j < n - 1; j++) {
 			if (a[j] > a[j + 1]) {
 				int temp = a[j];
@@ -38,7 +38,7 @@ void bubblesortArray() {
 void unsorted() {
 	cout << endl;
 	cout << "=============================" << endl;
-	cout << "Element Array yang telah disusun" << endl;
+	cout << "Element Array yang belum disusun" << endl;
 	cout << "=============================" << endl;
 	for (int j = 0; j < n; j++) {
 		cout << a[j] << endl;
@@ -49,7 +49,7 @@ void unsorted() {
 void display() {
 	cout << endl;
 	cout << "=============================" << endl;
-	cout << "Element Array yang belum disusun" << endl;
+	cout << "Element Array yang telah disusun" << endl;
 	cout << "=============================" << endl;
 	for (int j = 0; j < n; j++) {
 		cout << a[j] << endl;
@@ -61,7 +61,7 @@ int main() {
 	input();
 	unsorted();
 	bubblesortArray();
-	display;
+	display();
 
 	return 0;
 }
