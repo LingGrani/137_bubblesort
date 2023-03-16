@@ -24,7 +24,7 @@ void input() {
 	}
 }
 void bubblesortArray() {
-	for (int i = 0; i < 1; i++) {
+	for (int i = 1; i < 1; i++) {
 		for (int j = 0; j < 1; j++) {
 			if (a[j] > a[j + 1]) {
 				int temp = a[j];
