@@ -56,3 +56,12 @@ void display() {
 	}
 	cout << endl;
 }
+
+int main() {
+	input();
+	unsorted();
+	bubblesortArray();
+	display;
+
+	return 0;
+}
