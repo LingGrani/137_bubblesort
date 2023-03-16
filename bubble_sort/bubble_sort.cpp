@@ -41,6 +41,7 @@ void unsorted() {
 	cout << "";
 	cout << "=============================" << endl;
 	for (int j = 0; j < n; j++) {
-		cout << a [j] << endl:
+		cout << a[j] << endl;
 	}
+	cout << endl;
 }
